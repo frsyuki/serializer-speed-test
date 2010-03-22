@@ -1,0 +1,10 @@
+package type_protobuf;
+option optimize_for = SPEED;
+
+message Test {
+	required int32 id      = 1;
+	required uint32 width  = 2;
+	required uint32 height = 3;
+	required string data   = 4;
+}
+
